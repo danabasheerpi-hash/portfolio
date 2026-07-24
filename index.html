@@ -1,211 +1,110 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Dana Basheer | Data Analyst Portfolio</title>
-</head>
-<body>
-<div style="text-align:center; padding:40px 0;">
-    <h1>👋 Hi, Welcome to My Portfolio</h1>
-    <p>Explore my Data Analytics & Business Analysis projects</p>
-</div>
-</body>
-</html>
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Dana Basheer | Data Analyst Portfolio</title>
 
-<style>
+<link rel="stylesheet" href="style.css">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
-
-body{
-background:#f4f7fb;
-color:#333;
-}
-
-header{
-background:#0a3d62;
-color:white;
-text-align:center;
-padding:60px 20px;
-}
-
-header h1{
-font-size:48px;
-}
-
-header p{
-font-size:20px;
-margin-top:10px;
-}
-
-nav{
-background:#083358;
-padding:15px;
-text-align:center;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:20px;
-font-weight:bold;
-}
-
-section{
-max-width:1100px;
-margin:auto;
-padding:50px 20px;
-}
-
-h2{
-color:#0a3d62;
-margin-bottom:20px;
-}
-
-.card{
-background:white;
-padding:25px;
-margin-bottom:25px;
-border-radius:12px;
-box-shadow:0 5px 12px rgba(0,0,0,.1);
-}
-
-.skills{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-gap:15px;
-}
-
-.skill{
-background:#0a3d62;
-color:white;
-padding:15px;
-text-align:center;
-border-radius:8px;
-}
-
-.project{
-background:#ecf3ff;
-padding:20px;
-margin-top:20px;
-border-radius:10px;
-}
-
-button{
-background:#0a3d62;
-color:white;
-padding:12px 25px;
-border:none;
-border-radius:8px;
-cursor:pointer;
-margin-top:10px;
-}
-
-footer{
-background:#0a3d62;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
-}
-
-    .hero{
-display:flex;
-justify-content:space-between;
-align-items:center;
-max-width:1100px;
-margin:auto;
-padding:20px;
-}
-
-.hero-text{
-flex:1;
-text-align:left;
-}
-
-.hero-image img{
-width:250px;
-height:250px;
-border-radius:50%;
-object-fit:cover;
-border:5px solid white;
-box-shadow:0 5px 15px rgba(0,0,0,0.3);
-}
-
-@media(max-width:768px){
-
-.hero{
-flex-direction:column;
-text-align:center;
-}
-
-.hero-text{
-text-align:center;
-margin-bottom:20px;
-}
-
-.hero-image img{
-width:180px;
-height:180px;
-}
-
-}
-
-</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
 <body>
 
-<header>
-<div class="hero">
+<div class="welcome">
 
-<div class="hero-text">
+<h1>👋 Hi, Welcome to My Portfolio</h1>
+
+<p>Explore my Data Analytics & Business Analysis Projects</p>
+
+</div>
+
+<header class="hero">
+
+<div class="hero-left">
+
 <h1>Dana Basheer</h1>
-<p>Data Analyst | Business Analyst</p>
-<p>Python • SQL • Power BI • Tableau • Excel</p>
+
+<h2>Data Analyst | Business Analyst</h2>
+
+<p class="hero-skill">
+Python • SQL • Power BI • Tableau • Excel
+</p>
+
+<div class="hero-buttons">
+
+<a href="#projects" class="btn">
+<i class="fas fa-chart-bar"></i>
+View Projects
+</a>
+
+<a href="#contact" class="btn2">
+<i class="fas fa-envelope"></i>
+Contact Me
+</a>
+
 </div>
 
-<div class="hero-image">
+<div class="social">
+
+<a href="https://www.linkedin.com/in/dana-basheer" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/danabasheerpi-hash" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="mailto:danabasheerpi@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+<a href="tel:+971547862068">
+<i class="fas fa-phone"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
 <img src="profile.jpg.png" alt="Dana Basheer">
-</div>
 
 </div>
+
 </header>
 
 <nav>
 
-<a href="#about">About</a>
+<a href="#about"><i class="fas fa-user"></i> About</a>
 
-<a href="#skills">Skills</a>
+<a href="#skills"><i class="fas fa-code"></i> Skills</a>
 
-<a href="#experience">Experience</a>
+<a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
 
-<a href="#projects">Projects</a>
+<a href="#projects"><i class="fas fa-chart-line"></i> Projects</a>
 
-<a href="#contact">Contact</a>
+<a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
 
 </nav>
 
 <section id="about">
 
-<div class="card">
-
 <h2>About Me</h2>
 
+<div class="card">
+
 <p>
-Results-driven Data Analyst with 1+ years of experience in Business Analysis, Data Analytics and Business Intelligence. Passionate about transforming raw data into meaningful insights using Power BI, SQL, Python and Excel.
+
+Results-driven Data Analyst with 1+ years of experience in Business Analysis, Data Analytics and Business Intelligence.
+
+Passionate about transforming raw data into meaningful insights using Power BI, SQL, Python and Excel.
+
 </p>
 
 </div>
@@ -218,25 +117,30 @@ Results-driven Data Analyst with 1+ years of experience in Business Analysis, Da
 
 <div class="skills">
 
-<div class="skill">Power BI</div>
+<div class="skill">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+<h3>Python</h3>
+</div>
 
-<div class="skill">Excel</div>
+<div class="skill">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+<h3>SQL</h3>
+</div>
 
-<div class="skill">SQL</div>
+<div class="skill">
+<img src="https://img.icons8.com/color/96/power-bi.png">
+<h3>Power BI</h3>
+</div>
 
-<div class="skill">Python</div>
+<div class="skill">
+<img src="https://img.icons8.com/color/96/tableau-software.png">
+<h3>Tableau</h3>
+</div>
 
-<div class="skill">Tableau</div>
-
-<div class="skill">Pandas</div>
-
-<div class="skill">NumPy</div>
-
-<div class="skill">Machine Learning</div>
-
-<div class="skill">Business Analysis</div>
-
-<div class="skill">Data Cleaning</div>
+<div class="skill">
+<img src="https://img.icons8.com/color/96/microsoft-excel-2019.png">
+<h3>Excel</h3>
+</div>
 
 </div>
 
@@ -244,19 +148,31 @@ Results-driven Data Analyst with 1+ years of experience in Business Analysis, Da
 
 <section id="experience">
 
-<div class="card">
-
 <h2>Experience</h2>
+
+<div class="card">
 
 <h3>Business Analyst</h3>
 
-<p>Sita Softwares | Jan 2026 – Present</p>
+<p><strong>Sita Softwares</strong></p>
 
-<br>
+<p>January 2026 – Present</p>
+
+<p>
+Working with stakeholders to gather business requirements, prepare BRD/FRS documents, create process flows, support Agile development, and coordinate with development and QA teams.
+</p>
+
+<hr>
 
 <h3>Data Analytics Intern</h3>
 
-<p>Knovista Technologies | Jun 2025 – Dec 2025</p>
+<p><strong>Knovista Technologies Pvt Ltd</strong></p>
+
+<p>June 2025 – December 2025</p>
+
+<p>
+Performed data cleaning, exploratory data analysis (EDA), SQL querying, dashboard development in Power BI and Excel, and predictive analytics using Python.
+</p>
 
 </div>
 
@@ -268,51 +184,63 @@ Results-driven Data Analyst with 1+ years of experience in Business Analysis, Da
 
 <div class="project">
 
-<h3>Hospital Emergency Dashboard</h3>
+<h3>🏥 Hospital Emergency Dashboard</h3>
 
-<p>Power BI Dashboard showing patient trends, KPIs and emergency room performance.</p>
+<p>
+Power BI dashboard with KPIs, patient trends, emergency room performance, and operational insights.
+</p>
 
-<button>View Project</button>
-
-</div>
-
-<div class="project">
-
-<h3>Hotel Revenue Dashboard</h3>
-
-<p>Interactive dashboard analysing hotel revenue, occupancy and booking trends.</p>
-
-<button>View Project</button>
+<a href="#" class="project-btn">
+View Dashboard
+</a>
 
 </div>
 
 <div class="project">
 
-<h3>Excel Sales Dashboard</h3>
+<h3>🏨 Hotel Revenue Dashboard</h3>
 
-<p>Interactive Excel dashboard with KPI tracking and charts.</p>
+<p>
+Interactive Power BI dashboard analyzing occupancy, bookings, and hotel revenue performance.
+</p>
 
-<button>View Project</button>
-
-</div>
-
-<div class="project">
-
-<h3>Clear-Path</h3>
-
-<p>AI & IoT Road Accident Detection System.</p>
-
-<button>View Project</button>
+<a href="#" class="project-btn">
+View Dashboard
+</a>
 
 </div>
 
 <div class="project">
 
-<h3>Track-LOC</h3>
+<h3>📊 Excel Sales Dashboard</h3>
 
-<p>Smart College Bus Management & Student Monitoring System.</p>
+<p>
+Interactive Excel dashboard with KPIs, charts, slicers, and business performance analysis.
+</p>
 
-<button>View Project</button>
+<a href="#" class="project-btn">
+View Dashboard
+</a>
+
+</div>
+
+<div class="project">
+
+<h3>🚦 Clear-Path</h3>
+
+<p>
+AI & IoT based Road Accident Detection and Alert System with real-time monitoring.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>🚌 Track-LOC</h3>
+
+<p>
+Smart College Bus Management and Student Monitoring System with GPS tracking and analytics.
+</p>
 
 </div>
 
@@ -320,17 +248,36 @@ Results-driven Data Analyst with 1+ years of experience in Business Analysis, Da
 
 <section id="contact">
 
+<h2>Contact Me</h2>
+
 <div class="card">
 
-<h2>Contact</h2>
+<p><i class="fas fa-envelope"></i> danabasheerpi@gmail.com</p>
 
-<p>📧 danabasheerpi@gmail.com</p>
+<p><i class="fas fa-phone"></i> +971 547862068</p>
 
-<p>📍 Dubai, UAE</p>
+<p><i class="fas fa-location-dot"></i> Dubai, UAE</p>
 
-<p>💼 GitHub: github.com/danabasheerpi-hash</p>
+<p>
+<i class="fab fa-linkedin"></i>
+<a href="https://www.linkedin.com/in/dana-basheer" target="_blank">
+LinkedIn Profile
+</a>
+</p>
 
-<p>🔗 LinkedIn: Add your LinkedIn profile link</p>
+<p>
+<i class="fab fa-github"></i>
+<a href="https://github.com/danabasheerpi-hash" target="_blank">
+GitHub Profile
+</a>
+</p>
+
+<p>
+🌐
+<a href="https://danabasheerpi-hash.github.io/portfolio/" target="_blank">
+Portfolio Website
+</a>
+</p>
 
 </div>
 
@@ -341,6 +288,8 @@ Results-driven Data Analyst with 1+ years of experience in Business Analysis, Da
 <p>© 2026 Dana Basheer | Data Analyst Portfolio</p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 
