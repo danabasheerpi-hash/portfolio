@@ -1,9 +1,13 @@
-document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', function(e) {
         e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+        const section = document.querySelector(this.getAttribute('href'));
+
+        if(section){
+            section.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     });
 });
