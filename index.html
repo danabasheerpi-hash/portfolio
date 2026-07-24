@@ -120,6 +120,48 @@ padding:20px;
 margin-top:40px;
 }
 
+    .hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.hero-text{
+flex:1;
+text-align:left;
+}
+
+.hero-image img{
+width:250px;
+height:250px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid white;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-text{
+text-align:center;
+margin-bottom:20px;
+}
+
+.hero-image img{
+width:180px;
+height:180px;
+}
+
+}
+
 </style>
 
 </head>
@@ -127,13 +169,19 @@ margin-top:40px;
 <body>
 
 <header>
+<div class="hero">
 
+<div class="hero-text">
 <h1>Dana Basheer</h1>
-
 <p>Data Analyst | Business Analyst</p>
-
 <p>Python • SQL • Power BI • Tableau • Excel</p>
+</div>
 
+<div class="hero-image">
+<img src="profile.jpg.png" alt="Dana Basheer">
+</div>
+
+</div>
 </header>
 
 <nav>
