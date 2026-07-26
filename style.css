@@ -613,3 +613,92 @@ transition:.3s;
 .project-btn:hover{
 background:#003d80;
 }
+.projects{
+    padding:80px 10%;
+    background:#f8fbff;
+}
+
+.section-title{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:50px;
+    color:#1b3fa0;
+}
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+}
+
+.project-category{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:25px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.finance{
+    background:#dbeafe;
+    color:#1d4ed8;
+}
+
+.healthcare{
+    background:#dcfce7;
+    color:#15803d;
+}
+
+.ecommerce{
+    background:#fef3c7;
+    color:#b45309;
+}
+
+.retail{
+    background:#ede9fe;
+    color:#6d28d9;
+}
+
+.project-card h3{
+    margin:10px 0;
+    color:#222;
+}
+
+.tools{
+    color:#666;
+    font-weight:600;
+}
+
+.description{
+    color:#555;
+    line-height:1.7;
+    margin:20px 0;
+}
+
+.project-btn{
+    display:inline-block;
+    background:#2563eb;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.project-btn:hover{
+    background:#1d4ed8;
+}
