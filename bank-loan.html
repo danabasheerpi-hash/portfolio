@@ -1,1 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Bank Loan Report Dashboard | Dana Basheer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f8fc;
+    color:#333;
+}
+
+.project-hero{
+    background:linear-gradient(135deg,#1b3fa0,#2d7ff9);
+    color:white;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.project-hero h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.category{
+    display:inline-block;
+    background:white;
+    color:#1b3fa0;
+    padding:8px 18px;
+    border-radius:25px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.project-hero p{
+    max-width:850px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    background:white;
+    color:#1b3fa0;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:50px 0;
+}
+
+.section{
+    background:white;
+    margin-bottom:35px;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.section h2{
+    color:#1b3fa0;
+    margin-bottom:20px;
+}
+
+.tools{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.tool-card{
+    background:#eef5ff;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+}
+
+.tool-card h3{
+    color:#1b3fa0;
+}
+
+.dashboard-img{
+    width:100%;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.kpi-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.kpi-card{
+    background:#1b3fa0;
+    color:white;
+    text-align:center;
+    padding:25px;
+    border-radius:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills span{
+    background:#1b3fa0;
+    color:white;
+    padding:10px 18px;
+    border-radius:25px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+}
+
+footer a{
+    text-decoration:none;
+    color:#1b3fa0;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="project-hero">
+
+<h1>🏦 Bank Loan Report Dashboard</h1>
+
+<div class="category">
+Finance Analytics
+</div>
+
+<p>
+
+An interactive finance dashboard developed using Power BI and Microsoft Excel to analyse loan applications, funded amounts, repayments, customer risk, and lending performance.
+
+</p>
+
+<a href="index.html" class="back-btn">
+← Back to Portfolio
+</a>
+
+</section>
+
+<div class="container">
+
+<div class="section">
+
+<h2>Project Overview</h2>
+
+<p>
+
+The Bank Loan Report Dashboard provides a comprehensive view of loan applications, approvals, repayments, customer performance, and financial KPIs. The dashboard enables financial institutions to monitor lending activities, evaluate portfolio quality, and make informed business decisions through interactive reporting.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Business Problem</h2>
+
+<p>
+
+Banks receive thousands of loan applications every month. Analysing funded amounts, repayments, loan quality, customer risk, and lending trends manually is time-consuming and inefficient. The objective of this project was to build an interactive dashboard that provides a clear overview of loan performance and supports faster, data-driven financial decisions.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Project Objectives</h2>
+
+<ul>
+
+<li>Analyse total loan applications.</li>
+
+<li>Track funded amount and total repayments.</li>
+
+<li>Measure Good Loan and Bad Loan performance.</li>
+
+<li>Monitor average interest rate and Debt-to-Income (DTI).</li>
+
+<li>Identify monthly lending trends.</li>
+
+<li>Analyse loan purpose and regional distribution.</li>
+
+<li>Support financial decision-making using interactive dashboards.</li>
+
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Tools & Technologies</h2>
+
+<div class="tools">
+
+<div class="tool-card">
+<h3>📊 Power BI</h3>
+<p>Data Cleaning, Data Transformation, Power Query, DAX, Data Modelling</p>
+</div>
+
+<div class="tool-card">
+<h3>📈 Microsoft Excel</h3>
+<p>Dashboard Development, KPI Reporting, Interactive Charts & Visualisations</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Dashboard Preview</h2>
+
+<img src="bank-loan-summary.png" class="dashboard-img" alt="Bank Loan Summary Dashboard">
+
+<img src="bank-loan-overview.png" class="dashboard-img" alt="Bank Loan Overview Dashboard">
+
+</div>
+
+<div class="section">
+
+<h2>Key Performance Indicators</h2>
+
+<div class="kpi-grid">
+
+<div class="kpi-card">
+<h3>Total Loan Applications</h3>
+<p>Track all submitted loan applications.</p>
+</div>
+
+<div class="kpi-card">
+<h3>Total Funded Amount</h3>
+<p>Monitor the total amount funded to customers.</p>
+</div>
+
+<div class="kpi-card">
+<h3>Total Amount Received</h3>
+<p>Analyse repayments received from customers.</p>
+</div>
+
+<div class="kpi-card">
+<h3>Good vs Bad Loans</h3>
+<p>Compare healthy and high-risk loans.</p>
+</div>
+
+<div class="kpi-card">
+<h3>Interest Rate</h3>
+<p>Evaluate average lending interest rates.</p>
+</div>
+
+<div class="kpi-card">
+<h3>Debt-to-Income Ratio</h3>
+<p>Assess customer repayment capability.</p>
+</div>
+
+<div class="kpi-card">
+<h3>Monthly Trends</h3>
+<p>Track loan application growth over time.</p>
+</div>
+
+<div class="kpi-card">
+<h3>Loan Purpose Analysis</h3>
+<p>Identify the most common borrowing purposes.</p>
+</div>
+
+</div>
+
+</div>
+
+  <div class="section">
+
+<h2>Business Insights</h2>
+
+<ul>
+
+<li>Good Loans accounted for the majority of approved applications, indicating a healthy lending portfolio.</li>
+
+<li>The total amount received exceeded the funded amount for successful loans, reflecting strong repayment performance.</li>
+
+<li>Debt Consolidation emerged as one of the most common reasons for loan applications.</li>
+
+<li>Monthly loan applications showed a steady upward trend, indicating increasing customer demand.</li>
+
+<li>State-wise analysis highlighted regional lending patterns and opportunities for business expansion.</li>
+
+<li>The interactive dashboard enables faster monitoring of loan quality, customer behaviour, and financial KPIs.</li>
+
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Skills Demonstrated</h2>
+
+<div class="skills">
+
+<span>Power BI</span>
+
+<span>Microsoft Excel</span>
+
+<span>Power Query</span>
+
+<span>DAX</span>
+
+<span>Data Cleaning</span>
+
+<span>Data Transformation</span>
+
+<span>Data Modelling</span>
+
+<span>Financial Analytics</span>
+
+<span>Business Intelligence</span>
+
+<span>KPI Reporting</span>
+
+<span>Dashboard Design</span>
+
+<span>Data Visualization</span>
+
+</div>
+
+</div>
+
+<div class="section" style="text-align:center;">
+
+<h2>Project Outcome</h2>
+
+<p>
+
+This dashboard provides financial institutions with a clear and interactive view of lending performance. By combining data cleaning in Power BI with dashboard development in Microsoft Excel, the solution supports better financial analysis, risk assessment, and strategic decision-making.
+
+</p>
+
+<br>
+
+<a href="index.html" class="back-btn">
+← Back to Portfolio
+</a>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Dana Basheer | Data Analyst Portfolio</p>
+
+</footer>
+
+</body>
+
+</html>
