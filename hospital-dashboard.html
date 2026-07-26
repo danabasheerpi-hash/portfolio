@@ -1,1 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hospital Emergency Room Dashboard | Dana Basheer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#f4f8fc;
+color:#333;
+}
+
+.hero{
+background:linear-gradient(135deg,#0f766e,#14b8a6);
+color:white;
+padding:70px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.category{
+display:inline-block;
+background:white;
+color:#0f766e;
+padding:8px 20px;
+border-radius:30px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:850px;
+margin:auto;
+line-height:1.8;
+font-size:18px;
+}
+
+.back-btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 28px;
+background:white;
+color:#0f766e;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:50px 0;
+}
+
+.section{
+background:white;
+padding:35px;
+margin-bottom:35px;
+border-radius:18px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.section h2{
+color:#0f766e;
+margin-bottom:20px;
+}
+
+.tool-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.tool-card{
+background:#ecfeff;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+.tool-card h3{
+color:#0f766e;
+}
+
+.dashboard{
+width:100%;
+border-radius:15px;
+margin-top:20px;
+margin-bottom:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.kpi-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.kpi{
+background:#0f766e;
+color:white;
+padding:25px;
+text-align:center;
+border-radius:15px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skills span{
+background:#0f766e;
+color:white;
+padding:10px 18px;
+border-radius:25px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+}
+
+footer a{
+text-decoration:none;
+color:#0f766e;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>🏥 Hospital Emergency Room Dashboard</h1>
+
+<div class="category">
+
+Healthcare Analytics
+
+</div>
+
+<p>
+
+An interactive healthcare dashboard developed in Power BI to monitor emergency room performance, patient flow, waiting time, referrals, admissions, demographics, and operational KPIs.
+
+</p>
+
+<a href="index.html" class="back-btn">
+
+← Back to Portfolio
+
+</a>
+
+</section>
+
+<div class="container">
+
+<div class="section">
+
+<h2>Project Overview</h2>
+
+<p>
+
+The Hospital Emergency Room Dashboard provides hospital administrators with a comprehensive view of emergency department operations. It enables healthcare professionals to monitor patient flow, improve operational efficiency, reduce waiting times, and support better patient care through interactive visualisations and KPI tracking.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Business Problem</h2>
+
+<p>
+
+Hospitals receive a large number of emergency patients every day. Without a centralized reporting system, analysing patient waiting times, admission status, referrals, and operational performance becomes difficult. This dashboard was developed to provide real-time insights into emergency room performance and support informed decision-making.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Project Objectives</h2>
+
+<ul>
+
+<li>Monitor emergency room patient volume.</li>
+
+<li>Track average waiting time.</li>
+
+<li>Analyse patient satisfaction.</li>
+
+<li>Monitor admission status.</li>
+
+<li>Analyse referrals by department.</li>
+
+<li>Study patient demographics.</li>
+
+<li>Improve operational efficiency through KPI reporting.</li>
+
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Tools & Technologies</h2>
+
+<div class="tool-grid">
+
+<div class="tool-card">
+
+<h3>📊 Power BI</h3>
+
+<p>Data Cleaning, Power Query, DAX, Data Modelling & Dashboard Development</p>
+
+</div>
+
+</div>
+
+</div>
+<div class="section">
+
+<h2>Dashboard Preview</h2>
+
+<img src="hospital-dashboard1.png" class="dashboard" alt="Hospital Dashboard Monthly View">
+
+<img src="hospital-dashboard2.png" class="dashboard" alt="Hospital Dashboard Consolidated View">
+
+<img src="hospital-dashboard3.png" class="dashboard" alt="Hospital Dashboard Patient Details">
+
+<img src="hospital-dashboard4.png" class="dashboard" alt="Hospital Dashboard Key Takeaways">
+
+</div>
+
+<div class="section">
+
+<h2>Key Performance Indicators</h2>
+
+<div class="kpi-grid">
+
+<div class="kpi">
+<h3>Total Patients</h3>
+<p>Monitor the total number of emergency room visits.</p>
+</div>
+
+<div class="kpi">
+<h3>Average Wait Time</h3>
+<p>Track patient waiting time before receiving treatment.</p>
+</div>
+
+<div class="kpi">
+<h3>Patient Satisfaction</h3>
+<p>Measure the overall patient satisfaction score.</p>
+</div>
+
+<div class="kpi">
+<h3>Admission Status</h3>
+<p>Analyse admitted versus non-admitted patients.</p>
+</div>
+
+<div class="kpi">
+<h3>Department Referrals</h3>
+<p>Identify referrals across different hospital departments.</p>
+</div>
+
+<div class="kpi">
+<h3>Patients Seen Within 30 Minutes</h3>
+<p>Evaluate emergency room response efficiency.</p>
+</div>
+
+<div class="kpi">
+<h3>Patient Demographics</h3>
+<p>Analyse age group, gender and race distribution.</p>
+</div>
+
+<div class="kpi">
+<h3>Peak Days & Hours</h3>
+<p>Identify the busiest periods in the emergency department.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Business Insights</h2>
+
+<ul>
+
+<li>Peak patient arrivals occurred during specific hours, helping identify staffing requirements.</li>
+
+<li>Most patients were treated within the target waiting time, indicating efficient emergency room operations.</li>
+
+<li>Department referral analysis highlighted the departments receiving the highest number of emergency referrals.</li>
+
+<li>Patient demographics revealed differences in age groups and visit patterns.</li>
+
+<li>Patient satisfaction scores helped evaluate the quality of healthcare services.</li>
+
+<li>The dashboard supports data-driven decisions to improve hospital efficiency and patient care.</li>
+
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Skills Demonstrated</h2>
+
+<div class="skills">
+
+<span>Power BI</span>
+
+<span>Power Query</span>
+
+<span>DAX</span>
+
+<span>Data Cleaning</span>
+
+<span>Data Modelling</span>
+
+<span>Healthcare Analytics</span>
+
+<span>KPI Development</span>
+
+<span>Dashboard Design</span>
+
+<span>Business Intelligence</span>
+
+<span>Data Visualization</span>
+
+</div>
+
+</div>
+
+<div class="section" style="text-align:center;">
+
+<h2>Project Outcome</h2>
+
+<p>
+
+This dashboard enables hospital administrators to monitor emergency room performance through interactive visualisations and KPIs. It helps improve operational efficiency, patient experience, and resource planning by transforming healthcare data into actionable insights.
+
+</p>
+
+<br>
+
+<a href="index.html" class="back-btn">
+
+← Back to Portfolio
+
+</a>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Dana Basheer | Data Analyst Portfolio</p>
+
+</footer>
+
+</body>
+
+</html>
