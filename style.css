@@ -625,10 +625,16 @@ background:#003d80;
     color:#1b3fa0;
 }
 
-.project-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:30px;
+.project-card{
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:300px;
 }
 
 .project-card{
