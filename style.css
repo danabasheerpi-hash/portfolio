@@ -212,10 +212,15 @@ HERO
 .hero-image img{
     width:340px;
     height:340px;
-    object-fit:cover;
     border-radius:50%;
+    object-fit:cover;
+
+    /* Adjust these to position your face */
+    object-position:center 20%;
+
     border:8px solid #fff;
     box-shadow:0 20px 40px rgba(0,0,0,.3);
+
 }
 
 /*==================================
