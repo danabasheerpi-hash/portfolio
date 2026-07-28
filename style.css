@@ -49,51 +49,30 @@ WELCOME
 HERO
 =========================== */
 
-.hero{
+.hero-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     text-align:center;
-    color:#fff;
-    padding:70px 80px;
-}
-
-.hero-icon{
-    font-size:55px;
-    margin-bottom:10px;
 }
 
 .hero h1{
-    font-size:58px;
-    font-weight:700;
-    margin:0 0 22px;
+    margin:20px 0;
 }
 
 .category{
-    display:inline-block;
-    background:#fff;
-    color:#1f4eb5;
-    padding:12px 28px;
-    border-radius:50px;
-    font-size:20px;
-    font-weight:600;
-    margin-bottom:30px;
+    margin:10px 0 25px;
 }
 
 .hero p{
     max-width:900px;
-    margin:0 auto;
-    font-size:28px;
-    line-height:1.7;
+    margin:0 auto 40px;
+    line-height:1.8;
 }
 
 .back-btn{
-    display:inline-block;
-    margin-top:45px;
-    background:#fff;
-    color:#1f4eb5;
-    text-decoration:none;
-    font-weight:700;
-    padding:18px 42px;
-    border-radius:14px;
-    font-size:22px;
+    margin-top:10px;
 }
 /* ===========================
 BUTTONS
