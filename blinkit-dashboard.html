@@ -13,111 +13,133 @@
 <style>
 
 body{
-margin:0;
-font-family:Arial,Helvetica,sans-serif;
-background:#f4f8fc;
-color:#333;
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f8fc;
+    color:#333;
 }
 
-.hero{
-background:linear-gradient(135deg,#0f9d58,#34a853);
-color:white;
-padding:70px 20px;
-text-align:center;
+.project-hero{
+    background:linear-gradient(135deg,#0f9d58,#34a853);
+    color:white;
+    padding:70px 20px;
+    text-align:center;
 }
 
-.hero h1{
-font-size:42px;
-margin-bottom:15px;
+.project-hero h1{
+    font-size:42px;
+    margin-bottom:15px;
 }
 
 .category{
-display:inline-block;
-background:white;
-color:#0f9d58;
-padding:8px 20px;
-border-radius:30px;
-font-weight:bold;
-margin-bottom:20px;
+    display:inline-block;
+    background:white;
+    color:#0f9d58;
+    padding:8px 18px;
+    border-radius:25px;
+    font-weight:bold;
+    margin-bottom:20px;
 }
 
-.hero p{
-max-width:850px;
-margin:auto;
-font-size:18px;
-line-height:1.8;
+.project-hero p{
+    max-width:850px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
 }
 
 .back-btn{
-display:inline-block;
-margin-top:30px;
-padding:14px 28px;
-background:white;
-color:#0f9d58;
-text-decoration:none;
-border-radius:10px;
-font-weight:bold;
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    background:white;
+    color:#0f9d58;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
 }
 
 .container{
-width:90%;
-max-width:1200px;
-margin:auto;
-padding:50px 0;
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:50px 0;
 }
 
 .section{
-background:white;
-padding:35px;
-margin-bottom:35px;
-border-radius:18px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+    background:white;
+    margin-bottom:35px;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
 .section h2{
-color:#0f9d58;
-margin-bottom:20px;
+    color:#0f9d58;
+    margin-bottom:20px;
+}
+
+.tools{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
 }
 
 .tool-card{
-background:#ecfff3;
-padding:25px;
-border-radius:15px;
-text-align:center;
+    background:#ecfff3;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
 }
 
-.dashboard{
-width:100%;
-border-radius:15px;
-margin-top:20px;
-box-shadow:0 8px 20px rgba(0,0,0,.15);
+.tool-card h3{
+    color:#0f9d58;
+}
+
+.dashboard-img{
+    width:100%;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
 }
 
 .kpi-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
 }
 
 .kpi{
-background:#0f9d58;
-color:white;
-padding:25px;
-border-radius:15px;
-text-align:center;
+    background:#0f9d58;
+    color:white;
+    text-align:center;
+    padding:25px;
+    border-radius:15px;
 }
 
 .skills{
-display:flex;
-flex-wrap:wrap;
-gap:15px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
 }
 
 .skills span{
-background:#0f9d58;
-color:white;
-padding:10px 18px;
-border-radius:25px;
+    background:#0f9d58;
+    color:white;
+    padding:10px 18px;
+    border-radius:25px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+}
+
+footer a{
+    text-decoration:none;
+    color:#0f9d58;
+    font-weight:bold;
 }
 
 </style>
@@ -126,31 +148,23 @@ border-radius:25px;
 
 <body>
 
-<div class="hero-content">
+<section class="project-hero">
 
-    <div class="hero-title">
+<h1>🛒 Blinkit Sales Dashboard</h1>
 
-        <div class="hero-icon">🛒</div>
-
-        <h1>Blinkit Sales Dashboard</h1>
-
-    </div>
-
-    <div class="category">
-        E-Commerce Analytics
-    </div>
-
-    <p>
-        An interactive Power BI dashboard developed to analyse Blinkit's
-        sales performance, outlet performance, product categories,
-        customer ratings, and inventory trends.
-    </p>
-
-    <a href="index.html#projects" class="back-btn">
-        ← Back to Portfolio
-    </a>
-
+<div class="category">
+E-Commerce Analytics
 </div>
+
+<p>
+
+An interactive Power BI dashboard developed using Power BI to analyse Blinkit's sales performance, outlet performance, product categories, customer ratings, inventory trends, and business KPIs.
+
+</p>
+
+<a href="index.html" class="back-btn">
+← Back to Portfolio
+</a>
 
 </section>
 
@@ -201,27 +215,29 @@ Retail businesses generate large amounts of sales data every day. Analysing outl
 <li>Support retail business decisions.</li>
 
 </ul>
+ <div class="section">
 
-</div>
+<h2>Tools & Technologies</h2>
 
-<div class="section">
-
-<h2>Tools Used</h2>
+<div class="tools">
 
 <div class="tool-card">
 
 <h3>📊 Power BI</h3>
 
-<p>Power Query • DAX • Data Cleaning • Data Modelling • Dashboard Design</p>
+<p>Power Query, DAX, Data Cleaning, Data Modelling, Dashboard Development</p>
 
 </div>
 
 </div>
+
+</div>
+
 <div class="section">
 
 <h2>Dashboard Preview</h2>
 
-<img src="blinkit-dashboard.png" class="dashboard" alt="Blinkit Sales Dashboard">
+<img src="blinkit-dashboard.png" class="dashboard-img" alt="Blinkit Sales Dashboard">
 
 </div>
 
@@ -253,7 +269,7 @@ Retail businesses generate large amounts of sales data every day. Analysing outl
 
 <div class="kpi">
 <h3>Outlet Performance</h3>
-<p>Compare sales by outlet type, size and location.</p>
+<p>Compare sales by outlet type, outlet size, and outlet location.</p>
 </div>
 
 <div class="kpi">
@@ -263,7 +279,7 @@ Retail businesses generate large amounts of sales data every day. Analysing outl
 
 <div class="kpi">
 <h3>Fat Content Analysis</h3>
-<p>Compare sales by low-fat and regular products.</p>
+<p>Compare sales performance between Low Fat and Regular products.</p>
 </div>
 
 <div class="kpi">
@@ -281,17 +297,17 @@ Retail businesses generate large amounts of sales data every day. Analysing outl
 
 <ul>
 
-<li>Tier 3 outlets generated the highest overall sales, indicating strong demand in these locations.</li>
+<li>Tier 3 outlets generated the highest overall sales, indicating strong customer demand in these locations.</li>
 
-<li>Supermarket Type 1 contributed the largest share of revenue among outlet types.</li>
+<li>Supermarket Type 1 contributed the highest revenue among all outlet types.</li>
 
-<li>Fruits, vegetables, and snack foods were among the top-performing product categories.</li>
+<li>Fruits & Vegetables and Snack Foods were among the best-performing product categories.</li>
 
-<li>Average customer ratings remained consistently high, reflecting positive customer satisfaction.</li>
+<li>Customer ratings remained consistently high, reflecting positive customer satisfaction.</li>
 
-<li>Outlet size and location significantly influenced sales performance.</li>
+<li>Outlet size and location significantly influenced sales performance and profitability.</li>
 
-<li>The dashboard enables retail managers to identify growth opportunities and optimise inventory planning.</li>
+<li>The dashboard helps managers monitor KPIs, optimise inventory, and identify business growth opportunities.</li>
 
 </ul>
 
@@ -315,13 +331,13 @@ Retail businesses generate large amounts of sales data every day. Analysing outl
 
 <span>Retail Analytics</span>
 
-<span>E-commerce Analytics</span>
-
-<span>Dashboard Design</span>
+<span>E-Commerce Analytics</span>
 
 <span>Business Intelligence</span>
 
 <span>KPI Reporting</span>
+
+<span>Dashboard Design</span>
 
 <span>Data Visualization</span>
 
@@ -335,16 +351,14 @@ Retail businesses generate large amounts of sales data every day. Analysing outl
 
 <p>
 
-This dashboard provides a comprehensive view of Blinkit's retail performance, enabling business users to analyse sales, customer behaviour, outlet performance, and product trends. The insights support data-driven decisions that improve operational efficiency and business growth.
+This dashboard provides a comprehensive view of Blinkit's retail performance by analysing sales, outlet performance, customer behaviour, and product trends. The interactive dashboard supports data-driven decision-making, helping businesses improve operational efficiency, inventory management, and overall sales performance.
 
 </p>
 
 <br>
 
 <a href="index.html" class="back-btn">
-
 ← Back to Portfolio
-
 </a>
 
 </div>
@@ -359,4 +373,6 @@ This dashboard provides a comprehensive view of Blinkit's retail performance, en
 
 </body>
 
-</html>
+</html>   
+
+</div
