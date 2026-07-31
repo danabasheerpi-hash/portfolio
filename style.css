@@ -101,80 +101,109 @@ nav a:hover{
 
 .hero{
 
-    min-height:100vh;
+    min-height:80vh;
+
+    background:linear-gradient(135deg,#0d7c78,#23b5a8);
 
     display:flex;
 
-    align-items:center;
-
     justify-content:center;
 
-    padding:120px 8% 70px;
+    align-items:center;
 
-    background:
-    linear-gradient(rgba(6,24,58,.88),
-    rgba(6,24,58,.88)),
-    linear-gradient(135deg,#0a2d63,#07152d);
+    padding:80px 20px;
 
 }
 
 .hero-content{
 
-    width:100%;
-
-    max-width:1200px;
-
     display:flex;
 
-    justify-content:space-between;
+    flex-direction:column;
+
+    justify-content:center;
 
     align-items:center;
 
-    gap:70px;
+    text-align:center;
 
-    flex-wrap:wrap;
+    max-width:900px;
 
-}
-
-.hero-text{
-
-    flex:1;
+    margin:auto;
 
 }
 
-.hero-text h1{
+.hero-icon{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.hero h1{
+
+    color:white;
 
     font-size:58px;
 
-    margin-bottom:10px;
-
-    font-weight:800;
-
-}
-
-.hero-text h2{
-
-    color:#66c2ff;
-
-    font-size:30px;
+    font-weight:700;
 
     margin-bottom:25px;
 
 }
 
-.hero-text p{
+.category{
 
-    color:#d4dce8;
+    background:white;
 
-    font-size:18px;
+    color:#0d7c78;
+
+    padding:14px 35px;
+
+    border-radius:40px;
+
+    font-weight:600;
 
     margin-bottom:35px;
 
-    max-width:650px;
+}
+
+.hero p{
+
+    color:white;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin-bottom:50px;
 
 }
 
+.back-btn{
 
+    background:white;
+
+    color:#0d4e4a;
+
+    padding:18px 38px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.back-btn:hover{
+
+    transform:translateY(-4px);
+
+}
 /* ===========================
    BUTTONS
 =========================== */
