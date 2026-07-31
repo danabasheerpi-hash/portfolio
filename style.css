@@ -99,7 +99,7 @@ nav a:hover{
    HERO
 =========================== */
 
-.hero{
+.project-hero{
     min-height:80vh;
     display:flex;
     justify-content:center;
@@ -108,7 +108,7 @@ nav a:hover{
     padding:80px 20px;
 }
 
-.hero-content{
+.project-hero-content{
     max-width:850px;
     margin:auto;
     display:flex;
@@ -117,7 +117,7 @@ nav a:hover{
     justify-content:center;
     text-align:center;
 }
-.hero-title{
+.project-hero-title{
     display:flex;
     align-items:center;
     justify-content:center;
@@ -125,17 +125,17 @@ nav a:hover{
     margin-bottom:25px;
 }
 
-.hero-title h1{
+.project-hero-title h1{
     margin:0;
 }
 
-.hero-icon{
+.project-hero-icon{
     font-size:48px;
     line-height:1;
     margin:0;
 }
 
-.hero h1{
+.project-hero h1{
     color:#fff;
     font-size:58px;
     font-weight:700;
