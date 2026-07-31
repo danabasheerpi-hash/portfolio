@@ -13,133 +13,135 @@
 <style>
 
 body{
-margin:0;
-font-family:Arial,Helvetica,sans-serif;
-background:#f4f8fc;
-color:#333;
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f8fc;
+    color:#333;
 }
 
-.hero{
-background:linear-gradient(135deg,#0f766e,#14b8a6);
-color:white;
-padding:70px 20px;
-text-align:center;
+/* ================= HERO ================= */
+
+.project-hero{
+    background:linear-gradient(135deg,#0f766e,#14b8a6);
+    color:white;
+    padding:70px 20px;
+    text-align:center;
 }
 
-.hero h1{
-font-size:42px;
-margin-bottom:15px;
+.project-hero h1{
+    font-size:42px;
+    margin-bottom:15px;
 }
 
 .category{
-display:inline-block;
-background:white;
-color:#0f766e;
-padding:8px 20px;
-border-radius:30px;
-font-weight:bold;
-margin-bottom:20px;
+    display:inline-block;
+    background:white;
+    color:#0f766e;
+    padding:8px 18px;
+    border-radius:25px;
+    font-weight:bold;
+    margin-bottom:20px;
 }
 
-.hero p{
-max-width:850px;
-margin:auto;
-line-height:1.8;
-font-size:18px;
+.project-hero p{
+    max-width:850px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
 }
 
 .back-btn{
-display:inline-block;
-margin-top:30px;
-padding:14px 28px;
-background:white;
-color:#0f766e;
-text-decoration:none;
-border-radius:10px;
-font-weight:bold;
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    background:white;
+    color:#0f766e;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
 }
 
 .container{
-width:90%;
-max-width:1200px;
-margin:auto;
-padding:50px 0;
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:50px 0;
 }
 
 .section{
-background:white;
-padding:35px;
-margin-bottom:35px;
-border-radius:18px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+    background:white;
+    margin-bottom:35px;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
 .section h2{
-color:#0f766e;
-margin-bottom:20px;
+    color:#0f766e;
+    margin-bottom:20px;
 }
 
 .tool-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
 }
 
 .tool-card{
-background:#ecfeff;
-padding:25px;
-border-radius:15px;
-text-align:center;
+    background:#ecfeff;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
 }
 
 .tool-card h3{
-color:#0f766e;
+    color:#0f766e;
 }
 
 .dashboard{
-width:100%;
-border-radius:15px;
-margin-top:20px;
-margin-bottom:20px;
-box-shadow:0 10px 25px rgba(0,0,0,.15);
+    width:100%;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
 }
 
 .kpi-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
 }
 
 .kpi{
-background:#0f766e;
-color:white;
-padding:25px;
-text-align:center;
-border-radius:15px;
+    background:#0f766e;
+    color:white;
+    padding:25px;
+    text-align:center;
+    border-radius:15px;
 }
 
 .skills{
-display:flex;
-flex-wrap:wrap;
-gap:15px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
 }
 
 .skills span{
-background:#0f766e;
-color:white;
-padding:10px 18px;
-border-radius:25px;
+    background:#0f766e;
+    color:white;
+    padding:10px 18px;
+    border-radius:25px;
 }
 
 footer{
-text-align:center;
-padding:40px;
+    text-align:center;
+    padding:40px;
 }
 
 footer a{
-text-decoration:none;
-color:#0f766e;
-font-weight:bold;
+    text-decoration:none;
+    color:#0f766e;
+    font-weight:bold;
 }
 
 </style>
@@ -148,34 +150,26 @@ font-weight:bold;
 
 <body>
 
-<section class="project-hero hospital-hero">
+<section class="project-hero">
 
-    <div class="project-hero-content">
+    <h1>🏥 Hospital Emergency Room Dashboard</h1>
 
-        <div class="project-hero-title">
-
-    <div class="project-hero-icon">🏥</div>
-
-    <h1>Hospital Emergency Room Dashboard</h1>
-
-</div>
-        <div class="category">
-            Healthcare Analytics
-        </div>
-
-        <p>
-            An interactive healthcare dashboard developed using Power BI to monitor
-            emergency room performance, patient flow, waiting time, referrals,
-            admissions, demographics, and operational KPIs.
-        </p>
-
-        <a href="index.html#projects" class="back-btn">
-            ← Back to Portfolio
-        </a>
-
+    <div class="category">
+        Healthcare Analytics
     </div>
 
+    <p>
+
+        An interactive healthcare dashboard developed using Power BI to analyse emergency room performance, patient flow, waiting time, referrals, admissions, demographics, and operational KPIs.
+
+    </p>
+
+    <a href="index.html" class="back-btn">
+        ← Back to Portfolio
+    </a>
+
 </section>
+
 <div class="container">
 
 <div class="section">
@@ -225,7 +219,6 @@ Hospitals receive a large number of emergency patients every day. Without a cent
 </ul>
 
 </div>
-
 <div class="section">
 
 <h2>Tools & Technologies</h2>
@@ -233,16 +226,14 @@ Hospitals receive a large number of emergency patients every day. Without a cent
 <div class="tool-grid">
 
 <div class="tool-card">
-
 <h3>📊 Power BI</h3>
-
 <p>Data Cleaning, Power Query, DAX, Data Modelling & Dashboard Development</p>
-
 </div>
 
 </div>
 
 </div>
+
 <div class="section">
 
 <h2>Dashboard Preview</h2>
@@ -336,23 +327,14 @@ Hospitals receive a large number of emergency patients every day. Without a cent
 <div class="skills">
 
 <span>Power BI</span>
-
 <span>Power Query</span>
-
 <span>DAX</span>
-
 <span>Data Cleaning</span>
-
 <span>Data Modelling</span>
-
 <span>Healthcare Analytics</span>
-
 <span>KPI Development</span>
-
 <span>Dashboard Design</span>
-
 <span>Business Intelligence</span>
-
 <span>Data Visualization</span>
 
 </div>
@@ -372,9 +354,7 @@ This dashboard enables hospital administrators to monitor emergency room perform
 <br>
 
 <a href="index.html" class="back-btn">
-
 ← Back to Portfolio
-
 </a>
 
 </div>
@@ -388,5 +368,4 @@ This dashboard enables hospital administrators to monitor emergency room perform
 </footer>
 
 </body>
-
 </html>
